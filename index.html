@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickaxe Productions</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pVtXYCDs7cvl6nq9NYOIKQG0bg8Zg9u+VZJbNi5jHh42Bw0UR1S1bCzX6l3qXKQp9nLjJ19IMR6sP6Q5D1SMDQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/picareta.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Barra de Navegação Lateral -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="Pickaxes Productions">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#introducao"><i class="fas fa-info-circle"></i> Introdução</a></li>
+                <li><a href="#documentacao"><i class="fas fa-file-alt"></i> Documentação</a></li>
+                <li><a href="#" id="sobreNosBtn"><i class="fas fa-users"></i> Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <!-- Seção Home -->
+        <section id="home" class="section home-section">
+            <div class="hero">
+                <div class="video-container">
+                    <video controls>
+                        <source src="./assets/Pitch_RoboCar.mp4" type="video/mp4">
+                        Seu navegador não suporta a exibição de vídeos.
+                    </video>
+                </div>
+                <p>Pickaxe Productions: Conhecendo mais sobre a técnologia de maneira didática e convidativa.</p>
+                <a href="#introducao" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+
+        <!-- Seção Introdução -->
+        <section id="introducao" class="section introducao-section">
+            <div class="container">
+                <h2>Introdução</h2>
+                <p>Apresentação detalhada do projeto do carrinho autônomo, suas funcionalidades e objetivos.</p>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-robot"></i>
+                        <h3>Recursos e Investimentos</h3>
+                        <p>Nós utilizamos de peças eletrônicas de baixo custo e manutenção em ambos os nossos projetos. Tanto o filamento como as tábuas de MDF foram fornecidos pela faculdade, assim como as máquinas usadas para molda-los. Raspberry PI e o monitor usado para utiliza-lo foram retirados de um Arcade antigo e o Arduíno foi comprado em um website de importações, as demais peças foram adquiridas em lojas de varejo ou estavam presentes em nossas residências.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Design</h3>
+                        <p>Houveram várias ideias em relação a como deveria ser o design dos carrinhos, como por exemplo adaptar o MiniCar para se parecesse com um Cybertruck, contudo, essas ideias foram descartadas após várias análises de preço, praticidade e cronograma. O design final foi pensado de maneira a ser funcional, deixando a estética de lado e focando no objetivo principal: Concluir o trajeto mantendo-o intacto e pronto para futuros testes.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>Nosso carrinho autônomo foi desenvolvido para que pudesse percorrer o trajeto em uma pista sem relevos, considerando uma condição climática favorável. A ideia inicial era revesti-lo para que pudesse percorrer o trajeto mesmo durante a chuva e/ou iluminação intensa, porém, não conseguimos encaixar tudo a tempo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- Seção Documentação -->
+<section id="documentacao" class="section documentacao-section">
+    <div class="container">
+        <h2>Documentação</h2>
+        <p>Aqui você encontra toda a documentação técnica do projeto, incluindo manuais, guias e especificações.</p>
+        <div class="docs">
+            <div class="doc-item">
+                <i class="fas fa-book"></i>
+                <h3>Manual do Usuário</h3>
+                <p>Guia completo para utilização e manutenção do carrinho autônomo.</p>
+                <a href="https://www.youtube.com/watch?v=7Ga29zdc3GI" target="_blank" class="btn-doc">Assistir</a>
+            </div>
+            <div class="doc-item">
+                <i class="fas fa-code"></i>
+                <h3>Repositório de Código</h3>
+                <p>Acesse o código-fonte e contribua para o desenvolvimento do projeto.</p>
+                <a href="https://github.com/luanfontao/RoboCar-Mini" target="_blank" class="btn-doc">Visualizar</a>
+            </div>
+            <div class="doc-item">
+                <i class="fas fa-cogs"></i>
+                <h3>Especificações Técnicas</h3>
+                <p>Detalhamento das especificações técnicas e componentes utilizados. (Em desenvolvimento)</p>
+                <a href="#" target="_blank" class="btn-doc">Visualizar</a>
+            </div>
+        </div>
+
+        <!-- Novos espaços para imagens -->
+        <div class="image-gallery">
+            <div class="image-item">
+                <img src="./assets/robocar1.jpg" alt="Imagem 1">
+            </div>
+            <div class="image-item">
+                <img src="./assets/robocar2.jpg" alt="Imagem 2">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Slots de Imagens lado a lado -->
+        <div class="image-gallery">
+            <div class="image-slot">
+                <img src="assets/image1.jpg" alt="Imagem 1">
+            </div>
+            <div class="image-slot">
+                <img src="assets/image2.jpg" alt="Imagem 2">
+            </div>
+            <div class="image-slot">
+                <img src="assets/image3.jpg" alt="Imagem 3">
+            </div>
+            <div class="image-slot">
+                <img src="assets/image4.jpg" alt="Imagem 4">
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- Pop-up Sobre Nós -->
+    <div id="sobreNosModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sobre Nós</h2>
+            <p>A equipe "Pickaxe Productions", anteriormente conhecida como "The Pickaxes", surgiu no início do primeiro semestre de 2024 como um grupo de amigos que possuíam uma sede de conhecimento insaciável e um humor extremamente duvidoso.</p>
+            <p>A proposta inicial do projeto surgiu através da competição <a href="https://www.robocarrace.com.br/" target="_blank">RoboCar Race 2024</a>, por parte da universidade, que propôs um desafio que poderia agregar muito a nosso desenvolvimento acadêmico, o que fez com que decidíssemos aceita-lo sem nem pensar duas vezes.</p>
+        </div>
+    </div>
+
+    <!-- Scroll para Topo -->
+    <a href="#home" class="scroll-top" id="scrollTopBtn"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
